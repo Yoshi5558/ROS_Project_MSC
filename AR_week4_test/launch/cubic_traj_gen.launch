@@ -1,0 +1,30 @@
+
+<launch> 
+	<node
+	 pkg="AR_week4_test"
+	 type="points_generator.py"
+	 name="Data_generator"
+	 respawn="true"
+	 />
+
+	<node
+         pkg="AR_week4_test"
+         type="compute_cubic_coeffs.py"
+         name="Coeff_service"
+         respawn="true"
+         />
+
+	<node
+         pkg="AR_week4_test"
+         type="cubic_traj_planner.py"
+         name="Planner"
+         respawn="true"
+         />
+
+	<node
+         pkg="AR_week4_test"
+         type="plot_cubic_traj.py"
+         name="Plotter"
+         respawn="true"
+         />
+</launch>
