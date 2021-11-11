@@ -25,6 +25,7 @@ If you dont have a catkin_ws yet:
 Development Environment: 
 LAPTOP
 Windows 10 Pro/64Bit
+Ubuntu 20.4(LTS)/64Bit
 Python Version: 3.7.0 & 3.7.5 
 
 PI (3B+) (Passed Testing)
