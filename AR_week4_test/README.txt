@@ -1,5 +1,6 @@
 Student Name: Joshua Colletta
-Student#: 200874982
+
+
 Install:
 
 Assuming you have a ~/catkin_ws:
